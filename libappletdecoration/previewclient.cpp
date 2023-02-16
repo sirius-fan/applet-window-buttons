@@ -272,6 +272,9 @@ QColor PreviewClient::color(KDecoration2::ColorGroup group, KDecoration2::ColorR
 {
     return m_palette->color(group, role);
 }
+QString PreviewClient::windowClass() const{
+    return {'z'};
+}
 
 void PreviewClient::setColorScheme(QString scheme)
 {

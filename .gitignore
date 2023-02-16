@@ -40,3 +40,4 @@ build/
 .kdev4/
 
 build-kdev/
+/cmake-build-debug/
